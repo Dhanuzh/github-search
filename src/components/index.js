@@ -1,2 +1,2 @@
 export { default as Welcome } from "./Welcome";
-export { default as GitHubSearch } from "./GitHubSearch";
+export { default as Search } from "./Search";

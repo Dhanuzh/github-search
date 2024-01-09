@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import "./GitHubSearch.css";
+import "./Search.css";
 
-const GitHubSearch = () => {
+const Search = () => {
   const [projectName, setProjectName] = useState("");
   const [results, setResults] = useState([]);
   const [error, setError] = useState(null);
 
   const apiUrl = "https://api.github.com/graphql";
-  const token = "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";
+  const token =
+    "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";
 
   const handleSearch = async () => {
     try {
@@ -92,4 +93,4 @@ const GitHubSearch = () => {
   );
 };
 
-export default GitHubSearch;
+export default Search;
