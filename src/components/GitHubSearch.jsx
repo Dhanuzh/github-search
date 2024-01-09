@@ -7,7 +7,7 @@ const GitHubSearch = () => {
   const [error, setError] = useState(null);
 
   const apiUrl = "https://api.github.com/graphql";
-  const token = "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";
+  const token = "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";
 
   const handleSearch = async () => {
     try {
